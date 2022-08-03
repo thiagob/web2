@@ -1,2 +1,2 @@
-# web2
-Desenvolvimento Web 2
+# Web 2
+Hello World em Node.js utilizado na primeira aula de Sistemas Web 2.
