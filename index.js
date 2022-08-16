@@ -9,6 +9,12 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
+// relação inicial de alunos
+var alunos = [
+  {"id": 1, "nome": "José", "curso": "ADS"},
+  {"id": 2, "nome": "Maria", "curso": "Redes"},
+  {"id": 3, "nome": "João", "curso": "Administração"},
+]
 
 app.get('/', (req, res) => {
   // retornará Hello World!
