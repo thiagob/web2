@@ -26,6 +26,16 @@ app.get('/google', (req, res) => {
   res.redirect('http://www.google.com');
 })
 
+// lista os alunos 
+app.get('/api/alunos', (req, res) => {
+});
+
+// cria novo aluno
+app.post('/api/alunos', (req, res) => {
+
+  
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
